@@ -131,6 +131,9 @@ Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP
 Gustavo Eduardo de Souza Carvalho
 Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP
 
+Dr. Erick Siqueira Guidi
+Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP
+
 Davi Nascimento Gomes
 Projeto de Iniciação Científica Júnior – 2025
 Colégio Técnico Industrial de Guaratinguetá – UNESP 
@@ -139,8 +142,9 @@ Thiago Alves Kotz
 Projeto de Iniciação Científica Júnior – 2025
 Colégio Técnico Industrial de Guaratinguetá – UNESP
 
+
 ##Supervisor 
-Dr. Rogério de Oliveira Hein
+Dr. Luis Rogério de Oliveira Hein
 Universidade Estadual Paulista "Júlio de Mesquita Filho" (UNESP)
 
 
