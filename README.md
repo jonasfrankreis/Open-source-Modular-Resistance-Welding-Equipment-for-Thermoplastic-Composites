@@ -35,6 +35,7 @@ The interface allows for real-time monitoring of the process, control of voltage
 
 ## Project Structure
 
+```
 Open-source-Modular-Resistance-Welding-Equipment/
 │
 ├── src/                          # Source code
@@ -53,24 +54,21 @@ Open-source-Modular-Resistance-Welding-Equipment/
 ├── .gitignore
 ├── LICENSE                       # MIT License
 └── README.md
-
-
-## Installing Dependencies
-
-Before running the system from source, install the required libraries:
-
-```bash
-pip install pyqt5 pyserial pyqtgraph matplotlib reportlab
+```
 
 ## How to Run
 
 Install the dependencies:
 
+```bash
 pip install pyqt5 pyserial pyqtgraph matplotlib reportlab
+```
 
 Then run:
 
+```bash
 python src/Interface1.9.py
+```
 
 ## Report Generation
 
@@ -85,7 +83,7 @@ At the end of each process, the software automatically:
  - Final measured data
  - Voltage, current, power, pressure, and temperature
 
-##Importing and Exporting Parameters
+## Importing and Exporting Parameters
 
 The interface allows you to:
 
@@ -138,16 +136,6 @@ licences:
 | Documentation, illustrations, drawings and figures | CC BY 4.0 |
 | Control software (this repository) | MIT License |
 
-================================================================================
-
-This guarantees:
-
-- Full access to the source code
-- The right to study, modify, and redistribute
-- The obligation to maintain the same license for derivative works
-
-The full text of the GPLv3 can be found in the LICENSE file.
-
 ## Authors
 
 Dr. Jonas Frank Reis
@@ -166,9 +154,6 @@ Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP
 Gustavo Eduardo de Souza Carvalho
 Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP
 
-Dr. Erick Siqueira Guidi
-Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP
-
 Davi Nascimento Gomes
 Projeto de Iniciação Científica Júnior – 2025
 Colégio Técnico Industrial de Guaratinguetá – UNESP 
@@ -178,7 +163,7 @@ Projeto de Iniciação Científica Júnior – 2025
 Colégio Técnico Industrial de Guaratinguetá – UNESP
 
 
-##Supervisor 
+## Supervisor 
 Dr. Luis Rogério de Oliveira Hein
 Universidade Estadual Paulista "Júlio de Mesquita Filho" (UNESP)
 
