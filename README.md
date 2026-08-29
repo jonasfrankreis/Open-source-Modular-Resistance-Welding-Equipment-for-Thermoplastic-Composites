@@ -58,8 +58,10 @@ ProjetoSoldadora/
 └── README.md                     # Instructions and project details
 
 
-## How to Run the Software (.exe)
-Recommended for general use.
+## How to Run
+
+pip install pyqt5 pyserial pyqtgraph matplotlib reportlab
+python src/Interface1.9.py
 
 Open the dist/ folder.
 Doible-click: InterfaceSolda.exe
