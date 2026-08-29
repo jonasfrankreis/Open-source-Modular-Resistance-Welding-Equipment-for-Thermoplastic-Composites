@@ -73,12 +73,15 @@ Before running the system from source, install the required libraries:
 ```bash
 pip install pyqt5 pyserial pyqtgraph matplotlib reportlab
 
-## How to Run via Python
+## How to Run
 
-In the project folder, execute:
+Install the dependencies:
 
-python Interface1.9.py
-The interface will open immediately.
+pip install pyqt5 pyserial pyqtgraph matplotlib reportlab
+
+Then run:
+
+python src/Interface1.9.py
 
 ## Report Generation
 
