@@ -100,10 +100,51 @@ The interface allows you to:
 
 Ideal for repetitive testing and calibration procedures.
 
-##Licensing
+## Licensing
 
-This project uses PyQt5, which is distributed under the GNU General Public License version 3 (GPLv3).
-Consequently, the entire project is distributed under the same GPLv3 license.
+The source code of this project is released under the **MIT License**.
+See the [LICENSE](LICENSE) file for the full text.
+
+### Dependency notice
+
+This software requires **PyQt5**, which Riverbank Computing distributes under
+the **GNU General Public License v3 (GPLv3)** or under a separate commercial
+licence.
+
+The MIT License applies to the source code written by the authors of this
+project. It does not, and cannot, change the licence of PyQt5.
+
+In practice this means:
+
+- **Using or modifying the source code**: you install PyQt5 yourself
+  (`pip install pyqt5`) and run the application locally. Assembling the program
+  on your own machine for your own use is not distribution, so no GPL
+  obligation arises for you.
+- **Redistributing a bundled or compiled version**: if you build and share an
+  executable that embeds PyQt5 — for example one produced with PyInstaller —
+  you are distributing a combined work that includes GPL-licensed code, and
+  that distribution must comply with the terms of the GNU GPL v3.
+
+For this reason, this repository distributes **source code only**. No
+pre-compiled executable bundling PyQt5 is provided.
+
+If a permissively licensed binary is required, the graphical interface can be
+ported to PySide6 (Qt for Python), which is distributed under the LGPL and
+permits redistribution of bundled applications under permissive terms.
+
+### Other components of the project
+
+The hardware design files and the documentation of this equipment are
+deposited separately at <https://doi.org/10.17632/8tb37yjp9m> under their own
+licences:
+
+| Component | Licence |
+|---|---|
+| Hardware design files (mechanical and electrical) | CERN-OHL-S v2.0 |
+| Documentation, illustrations, drawings and figures | CC BY 4.0 |
+| Control software (this repository) | MIT License |
+
+================================================================================
 
 This guarantees:
 
