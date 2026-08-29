@@ -1,14 +1,34 @@
+================================================================================
+
 # Welding Machine Control Interface
-# Copyright (C) 2025  Jonas Frank Reis
+# Copyright (c) 2026 Jonas Frank Reis
 #
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License, version 3,
-# as published by the Free Software Foundation.
+# This file is part of the control software of the Open-source Modular
+# Resistance Welding Equipment for Thermoplastic Composites (OpenWelT).
 #
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the GNU General Public License for more details.
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the conditions stated in the LICENSE file
+# distributed with this source code.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED. See the LICENSE file for the full text of the MIT License.
+#
+# SPDX-FileCopyrightText: 2026 Jonas Frank Reis
+# SPDX-License-Identifier: MIT
+#
+# NOTE ON DEPENDENCIES: this software requires PyQt5, which is distributed by
+# Riverbank Computing under the GNU General Public License v3 or under a
+# commercial licence. The MIT License above covers only the source code
+# written by the authors of this project. Anyone who redistributes this
+# software in a bundled or compiled form that includes PyQt5 (for example an
+# executable produced with PyInstaller) is distributing a combined work and
+# must comply with the terms of the GNU GPL v3 for that distribution.
+
+================================================================================
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QMessageBox, QFileDialog
