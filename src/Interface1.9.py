@@ -1,5 +1,3 @@
-================================================================================
-
 # Welding Machine Control Interface
 # Copyright (c) 2026 Jonas Frank Reis
 #
@@ -28,7 +26,6 @@
 # executable produced with PyInstaller) is distributing a combined work and
 # must comply with the terms of the GNU GPL v3 for that distribution.
 
-================================================================================
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QMessageBox, QFileDialog
